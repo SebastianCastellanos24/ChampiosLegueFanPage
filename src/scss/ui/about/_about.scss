@@ -1,0 +1,28 @@
+@use 'base/mixins' as m;
+@use 'base/variables' as v;
+
+.about {
+    background-image: linear-gradient( to right,  rgba(v.$primary, 0.97) 0%, rgba(v.$primary, 0.97) 100%), url(../../../../build/img/about.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15rem 0;
+    color: v.$white;
+
+    &__title {
+        text-align: center;
+        margin-bottom: 3rem;
+        font-family: v.$secundaryFont;
+        text-transform: uppercase;
+    }
+
+    &__description{
+        width: 70%;
+        text-align: center;
+        margin: 0 auto;
+        position: relative;
+        height: auto;
+        margin-bottom: 3rem;
+        
+    }
+
+}

@@ -1,0 +1,88 @@
+@use 'base/mixins' as m;
+@use 'base/variables' as v;
+
+.history1 {
+    @include m.history("../img/history1.png", left, top, right, bottom, left);
+
+    &__grid { @include m.historyGrid; }
+
+    &__title { @include m.historyTitle; }
+
+    &__name { @include m.historyName; }
+
+    &__description { @include m.historyDescription; }
+
+    &__time { margin: 0; }
+
+    &__content { padding: 2rem 4rem; }
+}
+
+.history2 {
+    @include m.history("../img/history2.jpg", right, top, left, top, right);
+
+    &__grid { @include m.historyGrid;}
+
+    &__title { 
+        @include m.historyTitle;
+        @include m.tablet { grid-column: 2 / 3; grid-row: 1 / 1; }
+    }
+
+    &__name { @include m.historyName; }
+
+    &__description { @include m.historyDescription; }
+
+    &__time { margin: 0; }
+
+    &__content { padding: 2rem 4rem; }
+}
+
+.history3 {
+    @include m.history("../img/history3.jpg", left, center, left, top, right);
+
+    &__grid { @include m.historyGrid; }
+
+    &__title { @include m.historyTitle; }
+
+    &__name { @include m.historyName; }
+
+    &__description { @include m.historyDescription; }
+
+    &__time { margin: 0; }
+
+    &__content { padding: 2rem 4rem; }
+}
+
+.history4 {
+    @include m.history("../img/history4.jpg", right, center, center, center, right);
+
+    &__grid { @include m.historyGrid;}
+
+    &__title { 
+        @include m.historyTitle;
+        @include m.tablet { grid-column: 2 / 3; grid-row: 1 / 1; }
+    }
+
+    &__name { @include m.historyName; }
+
+    &__description { @include m.historyDescription; }
+
+    &__time { margin: 0; }
+
+    &__content { padding: 2rem 4rem; }
+}
+
+.history5 {
+    @include m.history("../img/history5.jpg", left, center, left, center, right);
+
+    &__grid { @include m.historyGrid; }
+
+    &__title { @include m.historyTitle; }
+
+    &__name { @include m.historyName; }
+
+    &__description { @include m.historyDescription; }
+
+    &__time { margin: 0; }
+
+    &__content { padding: 2rem 4rem; }
+}

@@ -1,0 +1,32 @@
+@use 'base/mixins' as m;
+@use 'base/variables' as v;
+
+.content {
+
+    @include m.tablet { 
+        width: 50%;
+    }
+
+    &__image{
+        width: 30rem;
+        margin: 0 auto;
+        margin-top: 2rem;
+    }
+
+    &__description {
+        margin: 3rem 0;
+        padding: 0 3rem;
+        font-weight: 400;
+
+        @include m.tablet { 
+            text-align: left;
+        }
+    }
+
+    &__link{
+        @include m.boton(v.$primary, v.$white);
+        margin-top: 1rem;
+        border-radius: 0.4rem;
+    }
+    
+}
