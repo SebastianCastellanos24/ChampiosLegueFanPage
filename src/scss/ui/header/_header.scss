@@ -2,7 +2,7 @@
 @use 'base/variables' as v;
 
 .header {
-    background-image: linear-gradient( to right,  rgba(v.$primary, 0.6) 0%, rgba(v.$primary, 0.6) 100%), url(../../../../build/img/hero.jpg);
+    background-image: linear-gradient( to right,  rgba(v.$primary, 0.6) 0%, rgba(v.$primary, 0.6) 100%), url(../img/hero.jpg);
     height: auto;
     background-repeat: no-repeat;
     background-size: cover;

@@ -2,7 +2,7 @@
 @use 'base/variables' as v;
 
 .champions {
-    background-image: linear-gradient( to right,  rgba(v.$primary, 0.8) 0%, rgba(v.$primary, 0.8) 100%), url(../../../../build/img/championsBg.jpg);
+    background-image: linear-gradient( to right,  rgba(v.$primary, 0.8) 0%, rgba(v.$primary, 0.8) 100%), url(../img/championsBg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center, left center;

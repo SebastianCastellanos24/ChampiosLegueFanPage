@@ -58,27 +58,27 @@
     }
 
     &:nth-child(1) {
-        @include m.memories("../../../../build/img/memory1.jpg");
+        @include m.memories("../img/memory1.jpg");
     }
 
     &:nth-child(2) {
-        @include m.memories("../../../../build/img/memory2.jpg");
+        @include m.memories("../img/memory2.jpg");
     }
 
     &:nth-child(3) {
-        @include m.memories("../../../../build/img/memory3.jpg");
+        @include m.memories("../img/memory3.jpg");
     }
 
     &:nth-child(4) {
-        @include m.memories("../../../../build/img/memory4.jpg");
+        @include m.memories("../img/memory4.jpg");
     }
 
     &:nth-child(5) {
-        @include m.memories("../../../../build/img/memory5.jpg");
+        @include m.memories("../img/memory5.jpg");
     }
 
     &:nth-child(6) {
-        @include m.memories("../../../../build/img/memory6.jpg");
+        @include m.memories("../img/memory6.jpg");
     }
 
 }
