@@ -2,7 +2,7 @@
 @use 'base/variables' as v;
 
 .rankings {
-    background-image: linear-gradient( to right,  rgba(v.$primary, 0.97) 0%, rgba(v.$primary, 0.97) 100%), url(../../../../build/img/about.jpg);
+    background-image: linear-gradient( to right,  rgba(v.$primary, 0.97) 0%, rgba(v.$primary, 0.97) 100%), url(../img/about.jpg);
     padding-bottom: 5rem;
 
     &__heading {
